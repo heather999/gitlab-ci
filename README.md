@@ -16,6 +16,7 @@ MIRROR_TARGET_PAT
 
 Check both Masked and Protected
 
+No need to create the repo in GitLab - the first time the mirror is run will do that for you.
 
 
 On the GitLab copy of the repo - set up a Pipeline Trigger Token (under Settings->CI/CD->Pipeline Tokens) that will be stored in the GitLab mirror repo CI/CD variables  See: https://software.nersc.gov/help/ci/triggers/index.md
